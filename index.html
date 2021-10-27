@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>吹view</title>
+    <link rel="stylesheet" href="ress.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- header -->
+  </head>
+  <body>
+    <header>
+      <section class="hero">
+        <div class="hero-body">
+          <p class="title is-1">吹view</p>
+          <p class="subtitle">
+            管楽器を対象とした基礎的演奏技向上のための<br
+              class="br-sp"
+            />音響特徴可視化アプリの試作
+          </p>
+        </div>
+      </section>
+    </header>
+    <div class="introduction">
+      <h3 class="intro_title">吹viewとは</h3>
+      <p class="introduction">
+        管楽器の練習を始めたばかりの初心者が<br
+          class="br-sp"
+        />安定した音を出せるようにするための<br
+          class="br-sp"
+        />お手伝いをするアプリです。
+        <br />
+        管楽器を練習したいユーザが気軽に録音し、<br
+          class="br-sp"
+        />音の強さ・高さ・音色の安定度を視覚的に<br
+          class="br-sp"
+        />確かめることができます。
+        <br />
+        また、先生モードからは登録したユーザの<br
+          class="br-sp"
+        />演奏データを見てコメントをつけることができ<br
+          class="br-sp"
+        />他者からの評価をもらうこともできます。
+      </p>
+    </div>
+    <div class="student">
+      <div class="studentTitle">
+        <h2 class="student">生徒モード</h2>
+      </div>
+      <p class="student">
+        ユーザーが演奏を録音すると、<br
+          class="br-sp"
+        />高さ・強さ・音色の3観点から
+        <br />
+        どの程度演奏が安定しているかを<br
+          class="br-sp"
+        />点数とグラフから知ることができます。
+        <br />
+        また、演奏データを蓄積していくことで<br
+          class="br-sp"
+        />安定度の推移がわかります。
+      </p>
+      <div class="studentImages">
+        <div class="columns">
+          <div class="column is-2">
+            <img class="home" src="img/p1.png" />
+            <p class="cap1">ホーム</p>
+          </div>
+
+          <div class="column is-2">
+            <img class="record" src="img/p2.png" />
+            <p class="cap2">録音</p>
+          </div>
+
+          <div class="column is-2">
+            <img class="detail" src="img/p3.png" />
+            <p class="cap3">曲詳細</p>
+          </div>
+
+          <div class="column is-2">
+            <img class="compare" src="img/p4.png" />
+            <p class="cap4">演奏データ比較</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns" style="margin-bottom: 0px">
+        <div class="column is-offset-3"></div>
+        <div class="column is-2">
+          <p class="img1">こちらをクリック ▼</p>
+          <a href="https://suiview-s.vdslab.jp/">
+            <img src="img/ogp_s.png" class="ogp_s"
+          /></a>
+          <p class="img1">（スマートフォン推奨）</p>
+        </div>
+
+        <div class="column is-2">
+          <img src="img/QR.jpg" class="qr" />
+        </div>
+        <div class="column is-offset-3"></div>
+      </div>
+      <!-- spmode -->
+      <div class="img-sp">
+        <p class="img1">こちらをクリック ▼</p>
+        <a href="https://suiview-s.vdslab.jp/">
+          <img src="img/ogp_s.png" class="ogp_s_sp"
+        /></a>
+        <p class="img1">（スマートフォン推奨）</p>
+      </div>
+    </div>
+
+    <div class="teacher">
+      <div class="teacherTitle">
+        <h2 class="teacher">先生モード</h2>
+      </div>
+      <p class="teacher">
+        先生モードでは生徒が演奏した<br class="br-sp" />音源とグラフを見て
+        <br />
+        コメントを付けることができます。
+        <br />
+        付けたコメントは生徒が見ることができます。
+      </p>
+
+      <img class="teacher" src="img/teacher.png" />
+
+      <div class="ogp_t">
+        <p>こちらをクリック ▼</p>
+        <a href="https://suiview-t.vdslab.jp/">
+          <img class="ogp_t" src="img/ogp_t.png" />
+        </a>
+        <p>（PC・タブレット推奨）</p>
+      </div>
+
+      <!-- spmode -->
+      <div class="img-sp">
+        <p>こちらをクリック ▼</p>
+        <a href="https://suiview-t.vdslab.jp/">
+          <img class="ogp_t_sp" src="img/ogp_t_sp.png" />
+        </a>
+        <p>（PC・タブレット推奨）</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="names">
+        日本大学文理学部<br class="br-sp" />渡邉みさと 尾上洋介 北原鉄朗
+        植村あい子
+        <br />
+        <br />
+        尾上研究室
+        <br />
+        北原研究室
+      </div>
+    </div>
+  </body>
+</html>
